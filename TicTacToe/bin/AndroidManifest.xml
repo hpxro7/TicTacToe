@@ -26,6 +26,10 @@
             android:name="com.awesome.tictactoe.TicTacToeActivity"
             android:label="@string/title_activity_tic_tac_toe" >
         </activity>
+        <activity
+            android:name="com.awesome.tictactoe.ChooseUser"
+            android:label="@string/title_activity_choose_user" >
+        </activity>
     </application>
 
 </manifest>
