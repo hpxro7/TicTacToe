@@ -17,14 +17,14 @@ public class TicTacToeData {
         //Converts x, y into index
         if (player) {
             p1data[x]++;
-            p2data[y+3]++;
+            p2data[y+2]++;
             if (x == y) p1data[6]++;
             if (x+y == 4) p1data[7]++;
             if (check(p1data)) System.out.println("X has won");
             return check(p1data);
         } else {
             p2data[x]++;
-            p2data[y]++;
+            p2data[y+2]++;
             if (x == y) p2data[6]++;
             if (x+y == 4) p2data[7]++;
             if (check(p2data)) System.out.println("O has won");

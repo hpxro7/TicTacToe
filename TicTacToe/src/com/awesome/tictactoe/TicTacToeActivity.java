@@ -23,7 +23,7 @@ public class TicTacToeActivity extends Activity implements OnClickListener {
 		Button[] buttonSet = new Button[9];
 		dataSets = new GameBlock[3][3];
 		int dataCount = 0;
-		
+		//test
 		
 		for(int x = 1; x <= 3; x++) {
 			for(int y = 1; y <= 3; y++) {
