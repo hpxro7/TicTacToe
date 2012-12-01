@@ -19,11 +19,9 @@ public class GameBlock {
 		return isSet;
 	}
 	
-	public void setActivated(char player) {
-		if(player == 'x') {
+	public void setActivated(boolean isXPlayer) {
+		if(isXPlayer) {
 			isX = true;
-		} else {
-			
 		}
 		isSet = true;
 	}
