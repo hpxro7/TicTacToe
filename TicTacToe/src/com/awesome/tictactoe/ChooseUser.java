@@ -1,22 +1,27 @@
 package com.awesome.tictactoe;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
+import android.widget.Button;
 
 public class ChooseUser extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main_);
+		setContentView(R.layout.activity_choose_user);
+		Button topLeft = new Button(this);
+		Button topCenter = new Button(this);
+		Button topRight = new Button(this);
+		Button middleLeft = new Button(this);
+		Button middleCenter = new Button(this);
+		Button middleRight = new Button(this);
+		Button bottomLeft = new Button(this);
+		Button bottomCenter = new Button(this);
+		Button bottomRight = new Button(this);
 	}
+	
+	
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_choose_user, menu);
-		return true;
-	}
 
 }
