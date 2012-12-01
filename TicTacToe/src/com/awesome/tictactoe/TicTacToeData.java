@@ -1,3 +1,4 @@
+//ASK JEREMY ANYTHING!!
 package com.awesome.tictactoe;
 
 public class TicTacToeData {
@@ -8,7 +9,10 @@ public class TicTacToeData {
         p1data = new int[] {0,0,0,0,0,0,0,0};
         p2data = new int[] {0,0,0,0,0,0,0,0};
     }
-
+    
+    
+    //Pass in the x and y values and player
+    //returns if player has won or not
     public boolean add(int x, int y, boolean player) {
         //Converts x, y into index
         if (player) {
@@ -28,7 +32,8 @@ public class TicTacToeData {
         } 
     }
 
-    public boolean check(int[] data) {
+    //NOTHING OF IMPORTANCEEEEEEEEE
+    private boolean check(int[] data) {
         for (int i : data) {
             if (i == 3) {
                 return true;
