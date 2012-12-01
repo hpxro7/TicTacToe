@@ -4,5 +4,6 @@
     <string name="app_name">TicTacToe</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="title_activity_tic_tac_toe">Tic Tac Toe</string>
 
 </resources>
